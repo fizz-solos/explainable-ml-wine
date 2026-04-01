@@ -1,0 +1,24 @@
+Decision Tree Rules - UCI Wine Dataset
+==================================================
+|--- Color intensity <= 3.82
+|   |--- Ash <= 3.00
+|   |   |--- OD280/OD315 of diluted wines <= 3.73
+|   |   |   |--- class: 2
+|   |   |--- OD280/OD315 of diluted wines >  3.73
+|   |   |   |--- class: 1
+|   |--- Ash >  3.00
+|   |   |--- class: 1
+|--- Color intensity >  3.82
+|   |--- Flavanoids <= 1.58
+|   |   |--- Alcalinity of ash <= 17.65
+|   |   |   |--- class: 2
+|   |   |--- Alcalinity of ash >  17.65
+|   |   |   |--- class: 3
+|   |--- Flavanoids >  1.58
+|   |   |--- Proline <= 724.50
+|   |   |   |--- Malic acid <= 3.92
+|   |   |   |   |--- class: 2
+|   |   |   |--- Malic acid >  3.92
+|   |   |   |   |--- class: 1
+|   |   |--- Proline >  724.50
+|   |   |   |--- class: 1

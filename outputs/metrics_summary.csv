@@ -1,0 +1,4 @@
+Model,Accuracy,F1-macro
+Logistic Regression (L1),0.9815,0.9829
+Logistic Regression (L2),0.9815,0.9829
+Decision Tree,0.963,0.9638
